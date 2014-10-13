@@ -4,7 +4,13 @@
 
 body{
 	background-image: url("../images/subtle_pattern/cream_pixels.png");
-	font-family:'Roboto', sans-serif;
+	font-family: 'Hammersmith One', sans-serif;
+}
+
+#company_name{
+	font-family: 'Hammersmith One', sans-serif;
+	font-size: 24px;
+	letter-spacing: 2px;
 }
 
 .format{
@@ -73,11 +79,11 @@ margin-bottom: 1em;
 
 
 .container-spacer{
-	height: 1em;
+	height: 3em;
 }
 
 .spacer{
-	height: 6em;
+	height: 5em;
 }
 
 .feature img {
@@ -100,27 +106,8 @@ margin-bottom: 1em;
 	color: blue;
 }
 
-
-.carousel-inner img{
-	margin:auto;
-	padding: 50px;
-	max-height: 500px;
-}
-
-.carousel-caption{
-	color: black;
-}
-
-.carousel-indicators li {
-  background-color: #70B0C2;
-}
-.carousel-indicators .active {
-
-  background-color: #2A738E;
-}
-
-.carousel-control.left, .carousel-control.right {
-    background-image: none
+#name a:hover{
+	color: #ddd;
 }
 
 #footer{
