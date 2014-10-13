@@ -52,6 +52,15 @@ background-color: rgba(0, 0, 0, 0.3);
 	color: white;
 }
 
+.affaires-thomas{
+	background-image: url("../images/Cover.jpg");
+	background-size: cover;
+	text-align: center;
+	height: 500px;
+	padding-top: 100px;
+	color: white;	
+}
+
 .lead h3 {
 background: rgba(0, 0, 0, .4);
 display: inline-block;
