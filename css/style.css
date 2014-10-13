@@ -3,7 +3,6 @@
 
 
 body{
-	background-image: url("../images/subtle_pattern/cream_pixels.png");
 	font-family: 'Hammersmith One', sans-serif;
 }
 
@@ -93,6 +92,10 @@ margin-bottom: 1em;
 .feature hr {
 	width: 25%;
 	border: 2px solid blue;
+}
+
+.container h5{
+	padding-top: 1em;
 }
 
 .circle{
