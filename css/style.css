@@ -52,14 +52,6 @@ background-color: rgba(0, 0, 0, 0.3);
 	color: white;
 }
 
-.affaires-thomas{
-	background-image: url("../images/Cover.jpg");
-	background-size: cover;
-	text-align: center;
-	height: 500px;
-	padding-top: 100px;
-	color: white;	
-}
 
 .lead h3 {
 background: rgba(0, 0, 0, .4);
@@ -107,6 +99,11 @@ margin-bottom: 1em;
 	padding-top: 1em;
 }
 
+blockquote{
+	background: #f9f9f9;
+	border-left: 4px solid blue;
+}
+
 .circle{
 	border-radius: 50%;
 	border: 2px solid blue;
@@ -121,6 +118,33 @@ margin-bottom: 1em;
 #name a:hover{
 	color: #ddd;
 }
+
+.affaires-thomas{
+	background-image: url("../images/Cover.jpg");
+	background-size: cover;
+	text-align: center;
+	height: 500px;
+	padding-top: 100px;
+	color: white;	
+}
+
+.affaires-alice{
+	background-image: url("../images/Cover.jpg");
+	background-size: cover;
+	text-align: center;
+	height: 500px;
+	padding-top: 100px;
+	color: white;	
+}
+
+.affaires-fred{
+	background-image: url("../images/Cover.jpg");
+	background-size: cover;
+	text-align: center;
+	height: 500px;
+	padding-top: 100px;
+	color: white;
+}	
 
 #footer{
 	background-color: rgba(0,0,0,0.85);
