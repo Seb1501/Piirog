@@ -1,11 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
+    
+    <title>{{ page.title }}</title>
+    {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+    {% endif %}
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="{{ page.url }}/" />
+    <meta property="og:image" content="{{page.image}}" />
+    <meta property="og:description" content="{{ page.description }}" />
+    <meta property="og:site_name" content="Piirog" />
+    <meta property="fb:admins" content="Facebook numeric ID"/>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>{{ page.title }}</title>
+    
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
@@ -40,16 +53,20 @@
           <ul class="nav navbar-nav navbar-right">
             <li>
                <a href="#">
-                <i class="fa fa-phone">06 00 00 00 00</i>
+                <i class="fa fa-phone"></i> 06 00 00 00 00
                </a> 
             </li>
             <li>
               <a href="mailto:contact@projectX.fr">
-                <i class="fa fa-envelope-o">contact@piirog.com</i>
+                <i class="fa fa-envelope-o"></i> contact@piirog.com
               </a>
             </li>
             <li>
                <a href="{{ site.baseurl }}/blog">Blog</a> 
+            </li>
+
+             <li>
+               <a href="{{ site.baseurl }}/playlist.html">Playlist</a> 
             </li>
             
                        

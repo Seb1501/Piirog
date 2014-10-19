@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+
+<div class="box-{{page.title}}">
+</div>
+
+<div class="container-spacer"></div>
+<div class="container text-center">
+  <div class="row text-center">
+    <div class="col-sm-12 feature">
+      <img src="../images/{{page.title}}.png" alt="" class="">
+      <p>
+      <h4> {{ page.title }} </h4> 
+      <hr><blockquote> {{ content }} </blockquote><br></hr>
+    </div>
+   </div>
+   <div class="row">
+	    <ul class="pager">
+	  		<li class="previous"><a href="{{page.previous}}.html">&larr; {{ page.previous }}</a></li>
+	  		<li class="next"><a href="{{page.next}}.html"> {{ page.next }} &rarr;</a></li>
+		</ul>
+	</div>
+</div>

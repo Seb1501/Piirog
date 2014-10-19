@@ -6,8 +6,11 @@ layout: default
 <div class="container">
 	<div class="row">
 		<div class="col-sm-8 col-sm-offset-2">
+			
+			<blockquote>
 			<h1>{{ page.title }}</h1>
-
+			{{ page.date | date_to_string }}
+			</blockquote>
 
 			{{ content }}
 			<h2>Commentaires</h2>
@@ -26,7 +29,17 @@ layout: default
 			        })();
 			</script>
 			<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    
+			<div id="related">
+ 			<h2>Articles précédents</h2>
+  				<ul class="posts">
+    			{% for post in site.posts limit:3 %}
+      			<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    			{% endfor %}
+  				</ul>
+			</div>
+
+    	
 		</div>
+
 	</div>
 </div>
