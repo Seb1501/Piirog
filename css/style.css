@@ -21,12 +21,12 @@ body{
 }
 
 .navbar-transparent {
-	background-color: rgba(0,0,0,0.6);
+	background-color: white;
 }
 
 .navbar-transparent .navbar-brand,
 .navbar-transparent .navbar-nav > li > a {
-  color: rgba(255,255,255,1);
+  color: rgba(3,30,192,1);
   line-height: 20px;
 }
 
@@ -40,15 +40,21 @@ body{
 .navbar-transparent .navbar-nav > .open > a:hover, 
 .navbar-transparent .navbar-nav > .open > a:focus {
 color: white;
-background-color: rgba(0, 0, 0, 0.3);
+background-color: rgba(3, 30, 192, 1);
 }
 
-.navbar-header a{
-	font-size: 18px;
+.navbar-default .navbar-toggle,
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: rgba(3, 30, 192, 1);
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: rgba(243, 147, 28, 1);
 }
 
 .wrapper {
-	background-image: url("../images/Cover.jpg");
+	background-image: url("../images/.jpg");
 	background-size: cover;
 	text-align: center;
 	height: 500px;
@@ -59,24 +65,33 @@ background-color: rgba(0, 0, 0, 0.3);
 /************************WRAPPER*DE*LA*LANDING***  **************************************************************************/
 
 .lead h3 {
-background: rgba(0, 0, 0, .4);
-display: inline-block;
-padding: 0.2em;
-font-size: 24px;
-font-weight: 400;
-letter-spacing: 2px;
-margin-bottom: 1em;
+/*background: rgba(0, 0, 0, .4);*/
+	display: inline-block;
+	padding: 0.2em;
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	margin-bottom: 1em;
+	color: black;
 }
 
 .lead h1{
-text-shadow: 2px 2px 20px rgba(0, 0, 0, .9);
-padding: 0.2em;
-font-size: 36px;
-font-weight: 500;
-letter-spacing: 2px;
-margin-bottom: 1em;
+/*text-shadow: 2px 2px 10px rgba(0, 0, 0, .9)*/;
+	padding: 0.2em;
+	font-size: 36px;
+	font-weight: 500;
+	letter-spacing: 2px;
+	margin-bottom: 1em;
+	color: black;
 }
 
+.btn-primary{
+	background-color: rgba(3, 30, 192, 1);
+}
+
+.btn-primary:hover{
+	background-color: rgba(3, 30, 192, 1);
+}
 /**************************PLUSIEURS*USAGES**********************************************************************************/
 
 .container-spacer{
@@ -92,7 +107,7 @@ margin-bottom: 1em;
 }
 
 .feature hr {
-	width: 25%;
+	width: 10%;
 	border: 2px solid blue;
 }
 
@@ -100,16 +115,45 @@ margin-bottom: 1em;
 	padding-top: 1em;
 }
 
+.center-justified {
+  text-align: justify;
+  margin: 0 auto;
+  width: 30em;
+}
+
+#fade_away {
+    opacity: 0.8;/* l'opacite que vous voulez au depart */
+    border: none;/* enlever les border d'une image en lien */
+    -ms-filter: "prodig:DXImageTransform.Microsoft.Alpha(Opacity=25)"; /* Hack IE8 */
+    filter: alpha(opacity = 25); /* Hack IE 5-7 */
+    -webkit-transition: opacity 0.5s ease-in-out;/* transition pour Chrome et Safari */
+    -moz-transition: opacity 0.5s ease-in-out;/* transition pour Firefox */
+    -o-transition: opacity 0.5s ease-in-out;/* transition pour Opéra */
+    transition: opacity 0.5s ease-in-out; /* on écrit cette ligne à la fin de façon à ce que ce soit elle qui soit prise en compte lorsque l'attribut transition sera pris en compte par tous les navigateurs */
+    width : 400px;
+    height : 800px;
+    display : block; /*Très important, sinon les dimensions ne sont pas prises en compte*/
+    background: url("../images/bin-blue-tools.png") no-repeat;
+    margin-top: 50px;
+ }
+
+#fade_away:hover {
+  	opacity: 1; /* opacite au survol */
+    -ms-filter:"prodig:DXImageTransform.Microsoft.Alpha(Opacity=90)"; /* Hack IE 8 */
+    filter: alpha(opacity = 90); /* Hack IE 5-7 */
+   	background-image: url("../images/bin-blue-K7.png");
+  
+}
 
 .circle{
 	border-radius: 50%;
-	border: 2px solid blue;
+	border: 3px solid rgba(3, 30, 192, 1);
 	padding: 4px;
-	box-shadow: 1px 1px 1px rgba(20,11,126,0.9);
+	/*box-shadow: 1px 1px 1px rgba(113,28,243,1);*/
 }
 
 .feature h4{
-	color: blue;
+	color: rgba(3,30,192,1);
 }
 
 #name a:hover{
