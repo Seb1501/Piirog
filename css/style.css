@@ -2,6 +2,7 @@
 
 /*********************BODY***************************************************************************************************/
 
+
 body{
 	font-family: 'Hammersmith One', sans-serif;
 }
@@ -54,10 +55,10 @@ background-color: rgba(3, 30, 192, 1);
 }
 
 .wrapper {
-	background-image: url("../images/.jpg");
+	background-image: url("../images/Cover.png");
 	background-size: cover;
 	text-align: center;
-	height: 500px;
+	height: 700px;
 	padding-top: 100px;
 	color: white;
 }
@@ -122,7 +123,7 @@ background-color: rgba(3, 30, 192, 1);
 }
 
 #fade_away {
-    opacity: 0.8;/* l'opacite que vous voulez au depart */
+    opacity: 1;/* l'opacite que vous voulez au depart */
     border: none;/* enlever les border d'une image en lien */
     -ms-filter: "prodig:DXImageTransform.Microsoft.Alpha(Opacity=25)"; /* Hack IE8 */
     filter: alpha(opacity = 25); /* Hack IE 5-7 */
@@ -133,7 +134,7 @@ background-color: rgba(3, 30, 192, 1);
     width : 288px;
     height : 400px;
     display : block; /*Très important, sinon les dimensions ne sont pas prises en compte*/
-    background: url("../images/empty-bin.png") no-repeat;
+    background: url("../images/bin_empty.png") no-repeat;
 }
 
 #fade_away:hover {
@@ -180,6 +181,8 @@ background-color: rgba(3, 30, 192, 1);
 .carousel-inner img{
 	/*margin:auto;*/
 	padding-bottom: 20px;
+	height: 380px;
+	width: 260px;
 	/*max-height: 500px;*/
 }
 
@@ -240,7 +243,7 @@ background-color: rgba(3, 30, 192, 1);
 }
 
 .box-Fred{
-	background-image: url("../images/Cover.jpg");
+	background-image: url("../images/Affaires-Fred.png");
 	background-size: cover;
 	text-align: center;
 	height: 500px;
@@ -249,7 +252,7 @@ background-color: rgba(3, 30, 192, 1);
 }
 
 .box-Victoria{
-	background-image: url("../images/Cover.jpg");
+	background-image: url("../images/Cover.png");
 	background-size: cover;
 	text-align: center;
 	height: 500px;
@@ -275,9 +278,13 @@ background-color: rgba(3, 30, 192, 1);
 	color: white;
 }
 
+.image{
+	border-radius: 50%;
+	height: 200px;
+}
 
 blockquote{
-	background: #f9f9f9;
+	/*background: #f9f9f9;*/
 	border-left: 4px solid blue;
 }	
 
