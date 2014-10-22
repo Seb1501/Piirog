@@ -181,8 +181,8 @@ background-color: rgba(3, 30, 192, 1);
 .carousel-inner img{
 	/*margin:auto;*/
 	padding-bottom: 20px;
-	height: 380px;
-	width: 260px;
+	height: 300px;
+	width: 200px;
 	/*max-height: 500px;*/
 }
 
@@ -190,15 +190,17 @@ background-color: rgba(3, 30, 192, 1);
   bottom:-30px;
 }
 
-/*.carousel-control .glyphicon-chevron-right {
+.carousel-control .glyphicon-chevron-right {
   	right: 50px;
   	color: rgba(3,30,192,1);
+  	top: 150px;
 }
 
 .carousel-control .glyphicon-chevron-left {
   	left: 50px;
   	color: rgba(3,30,192,1);
-}*/
+  	top: 150px;
+}
 
 
 
@@ -223,8 +225,8 @@ background-color: rgba(3, 30, 192, 1);
 
 /****************EXEMPLES*DE*BOX********************************************************************************************/
 
-.box-Thomas{
-	background-image: url("../images/Cover.jpg");
+.box-Rodolphe{
+	background-image: url("../images/Affaires-Fred.png");
 	background-size: cover;
 	text-align: center;
 	height: 500px;
@@ -234,7 +236,7 @@ background-color: rgba(3, 30, 192, 1);
 
 
 .box-Alice{
-	background-image: url("../images/Cover.jpg");
+	background-image: url("../images/Affaires-Fred.png");
 	background-size: cover;
 	text-align: center;
 	height: 500px;
@@ -252,7 +254,7 @@ background-color: rgba(3, 30, 192, 1);
 }
 
 .box-Victoria{
-	background-image: url("../images/Cover.png");
+	background-image: url("../images/Affaires-Fred.png");
 	background-size: cover;
 	text-align: center;
 	height: 500px;
@@ -261,7 +263,7 @@ background-color: rgba(3, 30, 192, 1);
 }
 
 .box-Beaubien{
-	background-image: url("../images/Cover.jpg");
+	background-image: url("../images/Affaires-Fred.png");
 	background-size: cover;
 	text-align: center;
 	height: 500px;
@@ -270,7 +272,7 @@ background-color: rgba(3, 30, 192, 1);
 }
 
 .box-See-Concept{
-	background-image: url("../images/Cover.jpg");
+	background-image: url("../images/Affaires-Fred.png");
 	background-size: cover;
 	text-align: center;
 	height: 500px;
