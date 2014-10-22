@@ -112,6 +112,11 @@ background-color: rgba(3, 30, 192, 1);
 	border: 2px solid blue;
 }
 
+.feature p{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
 .container h5{
 	padding-top: 1em;
 }
@@ -283,10 +288,10 @@ background-color: rgba(3, 30, 192, 1);
 	height: 200px;
 }
 
-blockquote{
-	/*background: #f9f9f9;*/
+/*blockquote{
+	background: #f9f9f9;
 	border-left: 4px solid blue;
-}	
+}	*/
 
 
 /*****************************FOOTER*****************************************************************************************/
