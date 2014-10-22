@@ -121,11 +121,6 @@ background-color: rgba(3, 30, 192, 1);
 	padding-top: 1em;
 }
 
-.center-justified {
-  text-align: justify;
-  margin: 0 auto;
-  width: 30em;
-}
 
 #fade_away {
     opacity: 1;/* l'opacite que vous voulez au depart */
