@@ -245,7 +245,7 @@ background-color: rgba(3, 30, 192, 1);
 /****************EXEMPLES*DE*BOX********************************************************************************************/
 
 .box-Rodolphe{
-	background-image: url("../images/Affaires-Fred.png");
+	background-image: url("../images/Affaires-Rodolphe.png");
 	background-size: cover;
 	text-align: center;
 	height: 500px;
@@ -264,7 +264,7 @@ background-color: rgba(3, 30, 192, 1);
 }
 
 .box-Fred{
-	background-image: url("");
+	background-image: url("../images/Affaires-Fred.png");
 	background-size: cover;
 	text-align: center;
 	height: 500px;
@@ -273,7 +273,7 @@ background-color: rgba(3, 30, 192, 1);
 }
 
 .box-Victoria{
-	background-image: url("../images/Affaires-Fred.png");
+	background-image: url("../images/Affaires-Victoria.png");
 	background-size: cover;
 	text-align: center;
 	height: 500px;
@@ -291,7 +291,7 @@ background-color: rgba(3, 30, 192, 1);
 }
 
 .box-See-Concept{
-	background-image: url("../images/Affaires-Fred.png");
+	background-image: url("../images/Affaires-See-Concept.png");
 	background-size: cover;
 	text-align: center;
 	height: 500px;
