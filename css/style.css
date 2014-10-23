@@ -141,7 +141,7 @@ background-color: rgba(3, 30, 192, 1);
   	opacity: 1; /* opacite au survol */
     -ms-filter:"prodig:DXImageTransform.Microsoft.Alpha(Opacity=90)"; /* Hack IE 8 */
     filter: alpha(opacity = 90); /* Hack IE 5-7 */
-   	background-image: url("../images/bin-Fred.png");
+   	background-image: url("../images/Bin-Fred.png");
   
 }
 
