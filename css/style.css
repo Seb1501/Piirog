@@ -70,7 +70,7 @@ background-color: rgba(3, 30, 192, 1);
 }
 
 .wrapper button{
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 .lead h3 {
@@ -129,37 +129,6 @@ background-color: rgba(3, 30, 192, 1);
 	padding-top: 1em;
 }
 
-
-#fade_away {
-    opacity: 1;/* l'opacite que vous voulez au depart */
-    border: none;/* enlever les border d'une image en lien */
-    -ms-filter: "prodig:DXImageTransform.Microsoft.Alpha(Opacity=25)"; /* Hack IE8 */
-    filter: alpha(opacity = 25); /* Hack IE 5-7 */
-    -webkit-transition: opacity 0.5s ease-in-out;/* transition pour Chrome et Safari */
-    -moz-transition: opacity 0.5s ease-in-out;/* transition pour Firefox */
-    -o-transition: opacity 0.5s ease-in-out;/* transition pour Opéra */
-    transition: opacity 0.5s ease-in-out; /* on écrit cette ligne à la fin de façon à ce que ce soit elle qui soit prise en compte lorsque l'attribut transition sera pris en compte par tous les navigateurs */
-    width : 288px;
-    height : 400px;
-    display : block; /*Très important, sinon les dimensions ne sont pas prises en compte*/
-    background: url("../images/bin_empty.png") no-repeat;
-}
-
-#fade_away:hover {
-  	opacity: 1; /* opacite au survol */
-    -ms-filter:"prodig:DXImageTransform.Microsoft.Alpha(Opacity=90)"; /* Hack IE 8 */
-    filter: alpha(opacity = 90); /* Hack IE 5-7 */
-   	background-image: url("../images/Bin-Fred.png");
-  
-}
-
-
-.engagement > li{
-	border-bottom:  1px dotted rgba(3, 30, 192, 1);
-	list-style: none;
-	padding: 30px;
-}
-
 .container h3{
 	margin-bottom: 50px;
 }
@@ -183,6 +152,47 @@ background-color: rgba(3, 30, 192, 1);
 .min-height{
 	min-height: 600px;
 }
+
+/**************************ENGAGEMENT**********************************************************************************/
+#fade_away {
+    opacity: 1;/* l'opacite que vous voulez au depart */
+    border: none;/* enlever les border d'une image en lien */
+    -ms-filter: "prodig:DXImageTransform.Microsoft.Alpha(Opacity=25)"; /* Hack IE8 */
+    filter: alpha(opacity = 25); /* Hack IE 5-7 */
+    -webkit-transition: opacity 0.5s ease-in-out;/* transition pour Chrome et Safari */
+    -moz-transition: opacity 0.5s ease-in-out;/* transition pour Firefox */
+    -o-transition: opacity 0.5s ease-in-out;/* transition pour Opéra */
+    transition: opacity 0.5s ease-in-out; /* on écrit cette ligne à la fin de façon à ce que ce soit elle qui soit prise en compte lorsque l'attribut transition sera pris en compte par tous les navigateurs */
+    width : 300px;
+    height : 430px;
+    display : block; /*Très important, sinon les dimensions ne sont pas prises en compte*/
+    background: url("../images/bin_empty.png") no-repeat;
+}
+
+#fade_away:hover {
+  	opacity: 1; /* opacite au survol */
+    -ms-filter:"prodig:DXImageTransform.Microsoft.Alpha(Opacity=90)"; /* Hack IE 8 */
+    filter: alpha(opacity = 90); /* Hack IE 5-7 */
+   	background-image: url("../images/bin-Victoria.png");
+  
+}
+
+
+.engagement > li{
+	border-bottom:  1px dotted rgba(3, 30, 192, 1);
+	list-style: none;
+	padding: 12px;
+}
+
+.engagement > li > b{
+	color: rgba(3, 30, 192, 1); 
+	font-size: 18px;
+}
+
+.engagement button{
+	margin-top: 20px;
+}
+
 
 /*****************CAROUSSEL*************************************************************************************************/
 
@@ -288,11 +298,11 @@ background-color: rgba(3, 30, 192, 1);
 	color: white;
 }
 
-.image{
+/*.image{
 	border-radius: 50%;
 	height: 200px;
 }
-
+*/
 /*blockquote{
 	background: #f9f9f9;
 	border-left: 4px solid blue;
