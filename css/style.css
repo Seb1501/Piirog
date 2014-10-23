@@ -183,9 +183,11 @@ background-color: rgba(3, 30, 192, 1);
 	padding: 12px;
 }
 
-.engagement > li > b{
+.engagement > li > p{
 	color: rgba(3, 30, 192, 1); 
 	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 2px;
 }
 
 .engagement button{
@@ -297,11 +299,11 @@ background-color: rgba(3, 30, 192, 1);
 	color: white;
 }
 
-/*.image{
+.image{
 	border-radius: 50%;
 	height: 200px;
 }
-*/
+
 /*blockquote{
 	background: #f9f9f9;
 	border-left: 4px solid blue;
