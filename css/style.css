@@ -5,8 +5,6 @@
 
 body{
 	font-family: 'Open Sans', sans-serif;
-	background-image: url("../images/subtle_pattern/cream_pixels.png");
-
 }
 
 
@@ -65,10 +63,11 @@ background-color: rgba(3, 30, 192, 1);
 	color: white;
 }
 
-/************************WRAPPER*DE*LA*LANDING***  **************************************************************************/
+/************************WRAPPER*DE*LA*LANDING*****************************************************************************/
 
 .wrapper img{
 	margin: auto;
+	display: inline;
 }
 
 .wrapper button{
@@ -79,7 +78,7 @@ background-color: rgba(3, 30, 192, 1);
 	/*background: rgba(0, 0, 0, .2);*/
 	display: inline-block;
 	padding: 0.1em;
-	font-size: 24px;
+	font-size: 19px;
 	font-weight: 400;
 	letter-spacing: 0px;
 	margin-bottom: 0.3em;
@@ -102,7 +101,20 @@ background-color: rgba(3, 30, 192, 1);
 .btn-primary:hover{
 	background-color: rgba(3, 30, 192, 1);
 }
-/**************************PLUSIEURS*USAGES**********************************************************************************/
+/**************************LE*SERVICE****************************************************************************************/
+
+.Le_service{
+}
+
+/**************************LE*SERVICE****************************************************************************************/
+
+.Notre_offre{
+	background-image: url("../images/subtle_pattern/cream_pixels.png");
+}
+
+
+
+/**************************PLUSIEURS*USAGES************************************************************************************/
 
 .container-spacer{
 	height: 3em;
@@ -154,12 +166,12 @@ background-color: rgba(3, 30, 192, 1);
 	min-height: 600px;
 }
 
-/**************************LE*SERVICE*********************************************************************************/
+/**************************NOTRE*OFFRE*********************************************************************************/
 
-/*.le_service{
-	background-image: url("../images/subtle_pattern/cream_pixels.png");
+.Notre_offre{
 }
-*/
+
+
 #fade_away {
     opacity: 1;/* l'opacite que vous voulez au depart */
     border: none;/* enlever les border d'une image en lien */
