@@ -27,7 +27,8 @@ body{
 
 .navbar-transparent .navbar-brand,
 .navbar-transparent .navbar-nav > li > a {
-  color: rgba(3,30,192,1);
+  color: rgba(73,255,42,1);
+  /*color: rgba(3,30,192,1);*/
   line-height: 20px;
 }
 
@@ -41,7 +42,8 @@ body{
 .navbar-transparent .navbar-nav > .open > a:hover, 
 .navbar-transparent .navbar-nav > .open > a:focus {
 color: white;
-background-color: rgba(3, 30, 192, 1);
+/*background-color: rgba(3, 30, 192, 1);*/
+background-color: rgba(73,255,42,1);
 }
 
 .navbar-default .navbar-toggle,
@@ -191,7 +193,7 @@ background-color: rgba(3, 30, 192, 1);
   	opacity: 1; /* opacite au survol */
     -ms-filter:"prodig:DXImageTransform.Microsoft.Alpha(Opacity=90)"; /* Hack IE 8 */
     filter: alpha(opacity = 90); /* Hack IE 5-7 */
-   	background-image: url("../images/Bin-Victoria.png");
+   	background-image: url("../images/Bin-Rodolphe.png");
   
 }
 
