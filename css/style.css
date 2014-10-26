@@ -16,7 +16,7 @@ body{
 
 
 #company_name{
-	font-family: 'Hammersmith One', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 24px;
 	letter-spacing: 2px;
 }
@@ -27,9 +27,8 @@ body{
 
 .navbar-transparent .navbar-brand,
 .navbar-transparent .navbar-nav > li > a {
-  color: rgba(73,255,42,1);
-  /*color: rgba(3,30,192,1);*/
-  line-height: 20px;
+  	color: rgba(3, 30, 192, 1);
+  	line-height: 20px;
 }
 
 .navbar-transparent .navbar-brand:hover,
@@ -41,9 +40,8 @@ body{
 .navbar-transparent .navbar-nav > .open > a, 
 .navbar-transparent .navbar-nav > .open > a:hover, 
 .navbar-transparent .navbar-nav > .open > a:focus {
-color: white;
-/*background-color: rgba(3, 30, 192, 1);*/
-background-color: rgba(73,255,42,1);
+	color: white;
+	background-color: rgba(3, 30, 192, 1);
 }
 
 .navbar-default .navbar-toggle,
@@ -53,8 +51,11 @@ background-color: rgba(73,255,42,1);
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: rgba(243, 147, 28, 1);
+   background-color: rgba(243, 147, 28, 1);
 }
+
+/************************WRAPPER*DE*LA*LANDING*****************************************************************************/
+
 
 .wrapper {
 	background-image: url("../images/Cover.png");
@@ -64,8 +65,6 @@ background-color: rgba(73,255,42,1);
 	padding-top: 100px;
 	color: white;
 }
-
-/************************WRAPPER*DE*LA*LANDING*****************************************************************************/
 
 .wrapper img{
 	margin: auto;
@@ -98,19 +97,28 @@ background-color: rgba(73,255,42,1);
 
 .btn-primary{
 	background-color: rgba(3, 30, 192, 1);
+	border-color: rgba(3, 30, 192, 1);
 }
 
 .btn-primary:hover{
 	background-color: rgba(3, 30, 192, 1);
+	border-color: rgba(3, 30, 192, 1);
+
 }
+/**************************MON**INVENTAIRE****************************************************************************************/
+
+.mon_inventaire{
+	
+	background-image: url("../images/subtle_pattern/cream_pixels.png");
+}
+
+.mon_inventaire img{
+	padding-top: 1em;
+}
+
 /**************************LE*SERVICE****************************************************************************************/
 
-.Le_service{
-}
-
-/**************************LE*SERVICE****************************************************************************************/
-
-.Notre_offre{
+.notre_offre{
 	background-image: url("../images/subtle_pattern/cream_pixels.png");
 }
 
@@ -118,12 +126,21 @@ background-color: rgba(73,255,42,1);
 
 /**************************PLUSIEURS*USAGES************************************************************************************/
 
+#titre_section{
+	
+	color: rgba(70,70,70,1);
+	font-weight: 700;
+	font-size: 24px;
+	margin-bottom: 1em;
+}
+
 .container-spacer{
 	height: 3em;
+	background-image: url("../images/subtle_pattern/cream_pixels.png");
 }
 
 .spacer{
-	height: 5em;
+	height: 8em;
 }
 
 .feature img {
@@ -170,9 +187,6 @@ background-color: rgba(73,255,42,1);
 
 /**************************NOTRE*OFFRE*********************************************************************************/
 
-.Notre_offre{
-}
-
 
 #fade_away {
     opacity: 1;/* l'opacite que vous voulez au depart */
@@ -186,21 +200,18 @@ background-color: rgba(73,255,42,1);
     width : 300px;
     height : 430px;
     display : block; /*Très important, sinon les dimensions ne sont pas prises en compte*/
-    background: url("../images/bin_empty.png") no-repeat;
+    background: url("../images/bin_empty_no_shadow.png") no-repeat;
 }
 
 #fade_away:hover {
   	opacity: 1; /* opacite au survol */
     -ms-filter:"prodig:DXImageTransform.Microsoft.Alpha(Opacity=90)"; /* Hack IE 8 */
     filter: alpha(opacity = 90); /* Hack IE 5-7 */
-   	background-image: url("../images/Bin-Rodolphe.png");
+   	background-image: url("../images/BOX_Rodolphe_no_shadow.png");
   
 }
 
-#titre_section{
-	color: rgba(70,70,70,1);
-	font-weight: 700;
-}
+
 
 
 .engagement > li{
