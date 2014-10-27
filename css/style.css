@@ -109,11 +109,11 @@ body{
 
 /**************************MON**INVENTAIRE****************************************************************************************/
 
-.mon_inventaire{
+.inventory{
 	background-image: url("../images/subtle_pattern/cream_pixels.png");
 }
 
-.mon_inventaire img{
+.inventory img{
 	margin: auto;
 	padding-top: 2em;
 }
@@ -121,7 +121,7 @@ body{
 
 /**************************PLUSIEURS*USAGES************************************************************************************/
 
-#titre_section{
+#title_section{
 	color: rgba(70, 70, 70, 1);
 	font-weight: 700;
 	font-size: 24px;
@@ -181,7 +181,7 @@ body{
 
 /**************************NOTRE*OFFRE*********************************************************************************/
 
-.notre_offre{
+.offer{
 	background-image: url("../images/subtle_pattern/cream_pixels.png");
 }
 
@@ -198,7 +198,7 @@ body{
     width : 300px;
     height : 430px;
     display : block; /*Très important, sinon les dimensions ne sont pas prises en compte*/
-    background: url("../images/bin_empty_no_shadow.png") no-repeat;
+    background: url("../images/Empty_bin_no_shadow.png") no-repeat;
 }
 
 .fade_away:hover, 
