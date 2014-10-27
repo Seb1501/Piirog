@@ -17,6 +17,7 @@ body{
 
 #company_name{
 	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
 	font-size: 24px;
 	letter-spacing: 2px;
 }
@@ -66,6 +67,10 @@ body{
 	color: white;
 }
 
+.wrapper img{
+	margin: auto;
+}
+
 .wrapper button{
 	margin-bottom: 30px;
 }
@@ -109,25 +114,14 @@ body{
 
 .mon_inventaire img{
 	margin: auto;
+	padding-top: 2em;
 }
-
-.mon_inventaire img{
-	padding-top: 1em;
-}
-
-/**************************LE*SERVICE****************************************************************************************/
-
-.notre_offre{
-	background-image: url("../images/subtle_pattern/cream_pixels.png");
-}
-
 
 
 /**************************PLUSIEURS*USAGES************************************************************************************/
 
 #titre_section{
-	
-	color: rgba(70,70,70,1);
+	color: rgba(70, 70, 70, 1);
 	font-weight: 700;
 	font-size: 24px;
 	margin-bottom: 1em;
@@ -139,7 +133,7 @@ body{
 }
 
 .spacer{
-	height: 4em;
+	height: 6em;
 }
 
 .feature img {
@@ -232,6 +226,10 @@ body{
 
 
 /*****************CAROUSSEL*************************************************************************************************/
+
+.header_carousel{
+	padding-bottom: 2em;
+}
 
 .carousel-inner img{
 	/*margin:auto;*/
