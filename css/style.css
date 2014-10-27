@@ -105,6 +105,8 @@ body{
 	border-color: rgba(3, 30, 192, 1);
 
 }
+
+
 /**************************MON**INVENTAIRE****************************************************************************************/
 
 .mon_inventaire{
@@ -294,7 +296,7 @@ body{
 
 
 .box-Alice{
-	background-image: url("../images/Affaires-Fred.png");
+	background-image: url("../images/Affaires-Alice.png");
 	background-size: cover;
 	text-align: center;
 	height: 500px;
