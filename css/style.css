@@ -133,7 +133,7 @@ body{
 }
 
 .spacer{
-	height: 6em;
+	height: 7em;
 }
 
 .feature img {
@@ -230,6 +230,11 @@ body{
 .header_carousel{
 	padding-bottom: 2em;
 }
+
+.carousel-inner a {
+	color: rgba(3,30,192,1);
+}
+
 
 .carousel-inner img{
 	/*margin:auto;*/
