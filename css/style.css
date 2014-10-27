@@ -66,11 +66,6 @@ body{
 	color: white;
 }
 
-.wrapper img{
-	margin: auto;
-	display: inline;
-}
-
 .wrapper button{
 	margin-bottom: 30px;
 }
@@ -113,6 +108,10 @@ body{
 }
 
 .mon_inventaire img{
+	margin: auto;
+}
+
+.mon_inventaire img{
 	padding-top: 1em;
 }
 
@@ -140,7 +139,7 @@ body{
 }
 
 .spacer{
-	height: 8em;
+	height: 4em;
 }
 
 .feature img {
