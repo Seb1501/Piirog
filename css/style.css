@@ -110,7 +110,6 @@ body{
 /**************************MON**INVENTAIRE****************************************************************************************/
 
 .mon_inventaire{
-	
 	background-image: url("../images/subtle_pattern/cream_pixels.png");
 }
 
@@ -126,7 +125,7 @@ body{
 	color: rgba(70, 70, 70, 1);
 	font-weight: 700;
 	font-size: 24px;
-	margin-bottom: 1em;
+	margin-bottom: 2em;
 }
 
 .container-spacer{
@@ -182,8 +181,12 @@ body{
 
 /**************************NOTRE*OFFRE*********************************************************************************/
 
+.notre_offre{
+	background-image: url("../images/subtle_pattern/cream_pixels.png");
+}
 
-#fade_away {
+
+.fade_away {
     opacity: 1;/* l'opacite que vous voulez au depart */
     border: none;/* enlever les border d'une image en lien */
     -ms-filter: "prodig:DXImageTransform.Microsoft.Alpha(Opacity=25)"; /* Hack IE8 */
@@ -198,7 +201,8 @@ body{
     background: url("../images/bin_empty_no_shadow.png") no-repeat;
 }
 
-#fade_away:hover {
+.fade_away:hover, 
+.fade_away:focus {
   	opacity: 1; /* opacite au survol */
     -ms-filter:"prodig:DXImageTransform.Microsoft.Alpha(Opacity=90)"; /* Hack IE 8 */
     filter: alpha(opacity = 90); /* Hack IE 5-7 */
@@ -283,7 +287,11 @@ body{
     background-image: none
 }
 
-/****************EXEMPLES*DE*BOX********************************************************************************************/
+/****************PROFIL********************************************************************************************/
+
+.profil a{
+	color: rgba(3, 30, 192, 1);
+}
 
 .box-Rodolphe{
 	background-image: url("../images/Affaires-Rodolphe.png");
@@ -323,7 +331,7 @@ body{
 }
 
 .box-Beaubien{
-	background-image: url("../images/Affaires-Fred.png");
+	background-image: url("../images/Affaires-Beaubien.png");
 	background-size: cover;
 	text-align: center;
 	height: 500px;
