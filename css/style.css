@@ -15,11 +15,15 @@ body{
 /*********************HEADER************************************************************************************************/
 
 
-#company_name{
+#company-name{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	font-size: 24px;
 	letter-spacing: 2px;
+}
+
+#title-nav{
+	font-size: 13px;
 }
 
 .navbar-transparent {
@@ -115,7 +119,7 @@ body{
 
 .inventory img{
 	margin: auto;
-	padding-top: 2em;
+	padding-top: 1em;
 }
 
 
@@ -126,6 +130,11 @@ body{
 	font-weight: 700;
 	font-size: 24px;
 	margin-bottom: 2em;
+	margin-top: 1.2em;
+}
+
+.profil-spacer{
+	height: 3em
 }
 
 .container-spacer{
@@ -313,7 +322,7 @@ body{
 }
 
 .box-Fred{
-	background-image: url("../images/Affaires-Fred.png");
+	background-image: url("../images/Affaires_Fred.png");
 	background-size: cover;
 	text-align: center;
 	height: 500px;
@@ -322,7 +331,7 @@ body{
 }
 
 .box-Victoria{
-	background-image: url("../images/Affaires-Victoria.png");
+	background-image: url("../images/Affaires_Victoria.png");
 	background-size: cover;
 	text-align: center;
 	height: 500px;
@@ -331,7 +340,7 @@ body{
 }
 
 .box-Beaubien{
-	background-image: url("../images/Affaires-Beaubien.png");
+	background-image: url("../images/Affaires_Beaubien.png");
 	background-size: cover;
 	text-align: center;
 	height: 500px;
@@ -340,7 +349,7 @@ body{
 }
 
 .box-See-Concept{
-	background-image: url("../images/Affaires-See-Concept.png");
+	background-image: url("../images/Affaires_See-Concept.png");
 	background-size: cover;
 	text-align: center;
 	height: 500px;
@@ -363,7 +372,7 @@ body{
 
 
 #footer{
-	background-color: rgba(0,0,0,0.85);
+	background-color: rgba(0,0,0,0.8);
 	color: #506474;
 	padding: 1em;
 	margin-top: 2em;
@@ -371,6 +380,10 @@ body{
 
 #footer a {
 	color: #506474;
+}
+
+#footer h4 {
+	color: rgba(3, 30, 192, 1);
 }
 
 #footer a:hover {
